@@ -1,0 +1,12 @@
+# Repository: DataGenius
+
+import pandas as pd
+
+data = {'Name': ['John', 'Alice', 'Bob', 'Jane'],
+        'Age': [25, 30, 28, 35],
+        'City': ['New York', 'Paris', 'London', 'Tokyo']}
+
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df.head())
